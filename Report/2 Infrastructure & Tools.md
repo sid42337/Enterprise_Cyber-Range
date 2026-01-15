@@ -6,7 +6,7 @@ This section provides an in-depth overview of the technical components that powe
 
 ---
 
-### 💻 1. Virtualization Environment
+### 💻 Virtualization Environment
 
 **Platform:** Oracle VirtualBox 7.1.8
 

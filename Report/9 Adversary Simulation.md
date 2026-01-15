@@ -2,9 +2,17 @@
 
 ---
 
+### Cyber Attack Simulation Netowrk Topology Diagram
+
+![image.png](./data/4.png)
+
+---
+
+---
+
 ### Cyber Attack Simulation Diagram
 
-![image.png](image%20133.png)
+![image.png](./data/5.png)
 
 ---
 
@@ -51,31 +59,31 @@ These steps were first built by Lockheed Martin as a conceptual model to underst
 
 As the industry continued to mature its approach to proactive detection, the MITRE ATT&CK framework was built to expand these ideas by providing a real-world repository of tactics, techniques, and procedures (TTPs) used by threat actors, broken down into generalized steps attackers take to control a business or organization.
 
-### **👀 Reconnaissance[¶](https://docs.projectsecurity.io/e101/cyberattacksimulation/#reconnaissance)**
+### **👀 Reconnaissance**
 
 Also referred to as 'recon'. This is first phase of a cyber-attack where attackers gather information about their target to identify vulnerabilities they can exploit. This phase is all about preparation and involves collecting as much data as possible about the target's systems, network, employees, or infrastructure without triggering alarms.
 
-### **🎯 Initial Access[¶](https://docs.projectsecurity.io/e101/cyberattacksimulation/#initial-access)**
+### **🎯 Initial Access**
 
 Attackers establish a foothold in the target’s environment. This is the entry point, achieved by exploiting vulnerabilities, phishing, using compromised credentials, or exploiting misconfigurations. The goal is to gain access to the target network while avoiding detection, setting the stage for further malicious activities.
 
-### **👉 Lateral Movement[¶](https://docs.projectsecurity.io/e101/cyberattacksimulation/#lateral-movement)**
+### **👉 Lateral Movement**
 
 Attackers navigate through a compromised network to access more systems, resources, or sensitive data. They move from the initial access point by exploiting vulnerabilities, using stolen credentials, and leveraging tools at their disposal. The aim is to expand control and find valuable assets without raising suspicion.
 
-### **📈 Privilege Escalation[¶](https://docs.projectsecurity.io/e101/cyberattacksimulation/#privilege-escalation)**
+### **📈 Privilege Escalation**
 
 Attackers increase their level of access within the target environment. This is done by exploiting system vulnerabilities, misconfigurations, or weak permissions to move from a standard user to an admin or system-level account. It allows attackers to execute critical tasks and access sensitive data more freely.
 
-### **🚀 Data Exfiltration[¶](https://docs.projectsecurity.io/e101/cyberattacksimulation/#data-exfiltration)**
+### **🚀 Data Exfiltration**
 
 Attackers transfer stolen data out of the target environment. This may include sensitive files, credentials, or intellectual property. Attackers often disguise or encrypt the data to evade detection during the transfer process, using channels like email, file-sharing platforms, or compromised systems.
 
-### **📩 Persistence[¶](https://docs.projectsecurity.io/e101/cyberattacksimulation/#persistence)**
+### **📩 Persistence**
 
 Attackers ensure ongoing access to the compromised system even after reboots or initial detection attempts. This involves creating backdoors, modifying system configurations, or installing malware that enables them to maintain control over the environment for extended periods.
 
-### **❌ Defense Evasion[¶](https://docs.projectsecurity.io/e101/cyberattacksimulation/#defense-evasion)**
+### **❌ Defense Evasion**
 
 Attackers employ techniques to avoid detection and bypass security measures. This includes obfuscating malware, disabling security tools, using fileless attacks, or manipulating logs. The objective is to operate undetected, prolonging their access and reducing the chances of discovery.
 
